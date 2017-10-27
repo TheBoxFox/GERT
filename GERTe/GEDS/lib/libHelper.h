@@ -4,6 +4,7 @@
 #include "../Peer.h"
 #include "../GERTc.h"
 #include "../logging.h"
+#include "./Tunnel.h"
 
 extern "C" {
 	extern bool sendToGateway(Address, string);
